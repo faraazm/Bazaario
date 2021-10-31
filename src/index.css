@@ -1,0 +1,128 @@
+:root {
+  --primary-color: #25262b;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f6f6f6;
+}
+
+.center {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form-container {
+  padding: 30px;
+  border: 1px solid rgb(238, 238, 238);
+  width: 400px;
+  max-width: 480px;
+}
+
+.page-loader {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.link {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 0px;
+}
+
+.navbar > .mantine-drawer-header {
+  margin: 0;
+  padding: 0;
+}
+
+.menu-list {
+  margin: 0 auto;
+  color: var(--primary-color);
+}
+
+.menu-list > li {
+  list-style: none;
+  padding: 15px 20px;
+}
+
+.menu-list-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 20px !important;
+  font-weight: light;
+}
+
+.menu-list-link > svg {
+  margin-right: 10px;
+}
+
+.menu-list-link:hover {
+  text-decoration: none !important;
+}
+
+.mantine-image-figure {
+  height: 100%;
+}
+
+.mantine-input-copy {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: Open Sans, sans-serif;
+  background-color: #fff;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #ced4da;
+  -webkit-transition: border-color 100ms ease, box-shadow 100ms ease;
+  transition: border-color 100ms ease, box-shadow 100ms ease;
+  height: 36px;
+  -webkit-tap-highlight-color: transparent;
+  line-height: 34px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  resize: none;
+  box-sizing: border-box;
+  font-size: 14px;
+  width: 100%;
+  color: #000;
+  display: block;
+  text-align: left;
+  min-height: 36px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 4px;
+}
+
+.mantine-input-copy:focus {
+  outline: none;
+  border-color: #339af0;
+}
+
+.hover-pointer:hover {
+  cursor: pointer
+}
+
+.listing {
+  transition: all 200ms;
+}
+
+.listing:hover {
+  transform: scale(1.025);
+  box-shadow: 0px 3px 20px #00000029;
+}
