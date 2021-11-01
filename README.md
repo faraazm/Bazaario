@@ -1,6 +1,8 @@
 # Bazaario 🏷️
 Bazaario is a real-time worldwide marketplace for selling pre-owned items. Check it out [here](https://bazaario-1467c.firebaseapp.com/)
 
+![](https://github.com/faraazm/Bazaario/blob/main/images/main.gif)
+
 ## What's cool about it?
 * Find listings near you based on Geolocation
 * Adjust the distance to increase/decrease kilometer radius
