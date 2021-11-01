@@ -2,7 +2,7 @@
 Bazaario is a real-time worldwide marketplace for selling pre-owned items. Find listings within a kilometer radius. Create listings and upload up to 3 images. Sign in with Google or register with Email + Password.
 
 # [Demo](https://bazaario-1467c.firebaseapp.com/) 🚀
-Check it out [here](https://bazaario-1467c.firebaseapp.com/)! If you are too lazy registering an account, you can login with the user below 👇
+Check it out [here](https://bazaario-1467c.firebaseapp.com/)! In case you are too lazy to register an account, I have a test account available for you! 👇
 
 Username: test@test.com\
 Password: Bazaario1234!
@@ -38,3 +38,5 @@ Password: Bazaario1234!
 * Upload upto 3 images (maximum 5mb) per listing
 #### Skeleton Loaders
 * Placeholder skeleton loaders for listings
+#### Protected Routes
+* Redirects users if they try accessing routes that require authentication
